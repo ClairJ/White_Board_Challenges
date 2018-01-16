@@ -1,0 +1,14 @@
+{
+  "name": "whiteboard_challenge_02",
+  "version": "1.0.0",
+  "description": "testing highest 2 numbers of an array.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "author": "joel clair",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^22.1.1"
+  }
+}
