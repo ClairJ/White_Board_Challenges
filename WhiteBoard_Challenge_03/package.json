@@ -1,0 +1,14 @@
+{
+  "name": "whiteboard_challenge_03",
+  "version": "1.0.0",
+  "description": "trasversing nested objects",
+  "main": "solution.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Joel Clair",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^22.1.2"
+  }
+}
