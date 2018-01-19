@@ -1,0 +1,17 @@
+{
+  "name": "whiteboard_challenge_04",
+  "version": "1.0.0",
+  "description": "intersecting 2 arrays",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "joel clair",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^22.1.3"
+  }
+}
