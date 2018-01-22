@@ -1,0 +1,17 @@
+{
+  "name": "whiteboard_challenge_06",
+  "version": "1.0.0",
+  "description": "recursive loop that returns a callback function",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Joel Clair",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^22.1.4"
+  }
+}
