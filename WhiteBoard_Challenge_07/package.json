@@ -1,0 +1,17 @@
+{
+  "name": "whiteboard_challenge_07",
+  "version": "1.0.0",
+  "description": "Deteriming if singly linked list is a looped list",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Joel Clair",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^22.1.4"
+  }
+}
