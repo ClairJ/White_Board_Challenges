@@ -1,0 +1,20 @@
+{
+  "name": "whiteboard_challenge_10",
+  "version": "1.0.0",
+  "description": "determining if curly braces are equal both left and righ\u001b[Dack",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Yohanes Demissie, Joel Clair",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^4.16.0"
+  },
+  "devDependencies": {
+    "jest": "^22.1.4"
+  }
+}
