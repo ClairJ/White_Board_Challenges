@@ -1,8 +1,8 @@
 'use strict';
 
 const wbcStack = require('../lib/wbc10.js');
-let testString = '{pop a molly}{and go to the b club}}';
-let testString2 = '{pop a molly}{and go to the b club}';
+let testString = '{hello}{world}}';
+let testString2 = '{hello}{world}';
 
 describe('wbc10', () => {
   wbcStack.parenthesesAreBalanced(testString);
