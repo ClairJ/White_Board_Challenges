@@ -1,0 +1,17 @@
+{
+  "name": "whiteboard_challenge_11",
+  "version": "1.0.0",
+  "description": "finding the missing number in an array of intergers from 1-100",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Roger Davenport, Joel Clair",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^22.1.4"
+  }
+}
