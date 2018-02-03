@@ -30,7 +30,7 @@ const K_ary = module.exports = class {
       console.log('curren val === ', current.val);
       if (current.val.children.length < 1) {
         answers.push(current.val);
-        console.log('answers ', answers);
+        console.log('ANSWERS === ', answers);
       }
       callback(current);
 
