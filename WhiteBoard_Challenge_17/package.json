@@ -1,0 +1,17 @@
+{
+  "name": "whiteboard_challenge_17",
+  "version": "1.0.0",
+  "description": "tree element total",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "joel clair",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^22.1.4"
+  }
+}
