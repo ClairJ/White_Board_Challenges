@@ -21,7 +21,7 @@ describe('Testing treeC', () => {
     testTree.insert(7,9);
     testTree.insert(6,9);
     testTree.insert(5,6);
-    it('Should the amount of children in a tree', () => {
+    it('Should show the amount of children in a tree', () => {
       expect(testTree.size()).toBe(4);
     });
   });
