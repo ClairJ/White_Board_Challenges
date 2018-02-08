@@ -1,0 +1,17 @@
+{
+  "name": "whiteboard_challenge_18",
+  "version": "1.0.0",
+  "description": "find the max children in a k-ary tree",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "joel clair",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^22.2.1"
+  }
+}
