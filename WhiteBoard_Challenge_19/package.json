@@ -1,0 +1,17 @@
+{
+  "name": "whiteboard_challenge_19",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "joel clair",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^22.2.1"
+  }
+}
