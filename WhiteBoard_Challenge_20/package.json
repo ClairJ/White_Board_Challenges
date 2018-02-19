@@ -1,0 +1,19 @@
+{
+  "name": "whiteboard_challenge_20",
+  "version": "1.0.0",
+  "description": "rewriting .map() .filter() .reduce()",
+  "main": "solution.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    ".map",
+    ".filter",
+    ".reduce"
+  ],
+  "author": "joel clair",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^22.3.0"
+  }
+}
