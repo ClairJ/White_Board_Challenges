@@ -31,7 +31,10 @@ whiteBoard.solution = function(arr) {
 
     high = Math.max(...arr);
 
-    let answer = [highest, high];
+    let answer = {
+      highest: highest,
+      high: high,
+    };
     return answer;
   }
 };
