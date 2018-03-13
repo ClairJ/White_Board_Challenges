@@ -1,10 +1,11 @@
 'use strict';
 
 const solution = require('./lls.js');
+const solution2 = module.exports = {};
 // best case is O(2) worst case is O(n * 2)
 
-solution.findIntersection = function(LL1, LL2) {
-  if(!LL1.head() || !LL2.head() || LL1 === undefined || LL2 === undefined) return null;
+solution2.findIntersection = function(LL1, LL2) {
+  if(!LL1.head || !LL2.head || LL1 === undefined || LL2 === undefined) return null;
   let first = LL1.head();
   let second = LL2.head();
   let testarr = [];
@@ -22,12 +23,10 @@ solution.findIntersection = function(LL1, LL2) {
     if(testarr.includes(LL2.elementAt(counter))) {
       console.log('triggered');
       list3.add(LL2.elementAt(counter));
+      return list3.head().element;
     }
     second = second.next;
     counter ++;
   }
   return list3.head();
 };
-
-
-module.exports = {};
