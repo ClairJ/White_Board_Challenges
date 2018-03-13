@@ -16,12 +16,10 @@ function getAvg(numArray) {
   return numArray.reduce(reducer)/numArray.length
 }
 
-let max = getMax(nums);
-let min = getMin(nums);
-let avg = getAvg(nums);
-let solution = {max, min, avg}
+let solution = {
+  maximum: getMax(nums),
+  minimum: getMin(nums),
+  average: getAvg(nums),
+}
 
-console.log('max = ', getMax(nums))
-console.log('max = ', getMin(nums))
-console.log('avg = ', getAvg(nums))
 console.log('solution =', solution)
