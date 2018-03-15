@@ -5,6 +5,7 @@ describe('testing wbc', () =>{
   describe('testing lists', () => {
     test('empty lists should return null', () => {
       let testResults = new solution.LinkedList();
+
       expect(solution.answer(testResults)).toBeNull;
     });
 
@@ -25,6 +26,16 @@ describe('testing wbc', () =>{
       testResults.add(8);
       testResults.add(13);
       expect(solution.answer(testResults)).toBe(7);
+    });
+
+    test('solution with challenge should return 15', () => {
+      let challengeResults = new solution.LinkedList();
+      challengeResults.add(25);
+      challengeResults.add(1);
+      challengeResults.add(15);
+      challengeResults.add(33);
+      challengeResults.add(4);
+      expect(challengeResults.elementAt(2)).toBe(15);
     });
 
   });
