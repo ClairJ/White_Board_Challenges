@@ -3,19 +3,24 @@
 function letsToNums(str) {
 
   var countArr = [];
+  var testResult;
+  var highScore = 0;
 
   let arr = str.split(' ');
 
   for (var j = 0; j < arr.length; j++) {
-    console.log(arr);
     var count = 0;
 
     for (var i = 0; i < arr[j].length; i++) {
-      count += str.charCodeAt(i);
+      count += arr[j].charCodeAt(i) - 97;
     }
     countArr.push(count);
+    if(count > highScore) {
+      highScore = count;
+      testResult = arr[j];
+      }
   }
-  return countArr.sort()[countArr.sort().length - 1];
+  return testResult;
 }
 
-console.log(letsToNums('hello worlds'));
+console.log('results', letsToNums('hello worlds its me'));
